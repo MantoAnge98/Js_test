@@ -13,12 +13,12 @@ function getInputValue(){
 
   var name = document.getElementById("name").value
   if (name == "") {
-    danger = 'block'
+    var danger = document.getElementById('alert-danger').style.display = 'block'
     document.getElementById('form2').style.display = 'none'
     document.getElementById('form1').style.display = 'block'
   }else {
     console.log(name)
-    success = 'block'
+    var success = document.getElementById('alert-success').style.display = 'block'
     document.getElementById('form2').style.display = 'block'
     document.getElementById('form1').style.display = 'none'
   }
