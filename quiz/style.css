@@ -1,0 +1,25 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Varela Round', sans-serif!important;
+  background-image: url(img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%
+}
+
+.container-fluid{
+
+}
+
+#form2{
+  display: none;
+}
+
+#alert-success, #alert-danger{
+  display: none;
+}
